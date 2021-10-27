@@ -4,25 +4,26 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="center">
-  <h3 align="center"><a href="https://github.com/learnwithsumit/tailwind-playlist">Tailwind CSS Playlist lessons by Learn with Sumit</a></h3>
+  <h3 align="center"><a href="https://github.com/learnwithsumit/tailwind-playlist">Lesson - 2 : Tailwind CSS Playlist lessons by Learn with Sumit</a></h3>
+</p>
 
 ## Youtube Tutorial link
 
+You can watch the video tutorial here - https://lwsbd.link/tp2
+
 You can get the complete series of tutorials here - https://lwsbd.link/tp
 
-## How to follow this repository
+## How to run this branch
 
-This main branch contains the overview of the Tutorial Series. You will get lesson by lesson source code in corresponding branches of this repository. You can access each lesson source code by checking out corresponding branch. For example, to get the source code for Lesson - 2, just follow the below steps:
+This branch contains the lesson-2 source code shown in the Tutorial Series. To run the project follow the below steps:
 
-1. Clone this repository
+1. Install node modules.
    ```sh
-   git clone https://github.com/learnwithsumit/tailwind-playlist.git
+   npm i
    ```
-2. Checkout desired branch
-   ```sh
-   git checkout lesson-2
-   ```
-3. Follow the instructions from that branch readme file.
+2. Open the index.html file in VS Code Editor
+3. Right click on the editor and click "Open with Live Server". You need to install the Live Server VS Code Plugin before that.
+4. Project should be up and running in your browser.
 
 <!-- CONTACT -->
 
