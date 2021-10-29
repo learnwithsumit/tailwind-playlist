@@ -4,18 +4,18 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="center">
-  <h3 align="center"><a href="https://github.com/learnwithsumit/tailwind-playlist">Lesson - 6 : Tailwind CSS Playlist lessons by Learn with Sumit</a></h3>
+  <h3 align="center"><a href="https://github.com/learnwithsumit/tailwind-playlist">Lesson - 7 : Tailwind CSS Playlist lessons by Learn with Sumit</a></h3>
 </p>
 
 ## Youtube Tutorial link
 
-You can watch the video tutorial here - https://lwsbd.link/tp6
+You can watch the video tutorial here - https://lwsbd.link/tp7
 
 You can get the complete series of tutorials here - https://lwsbd.link/tp
 
 ## How to run this branch
 
-This branch contains the lesson-6 source code shown in the Tutorial Series. To run the project follow the below steps:
+This branch contains the lesson-7 source code shown in the Tutorial Series. To run the project follow the below steps:
 
 1. Install node modules.
    ```sh
