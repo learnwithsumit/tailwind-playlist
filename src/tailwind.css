@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities; */
 
-@variants focus, hover {
-  .rotate-0 {
-    transform: rotate(0deg);
+@screen sm {
+  .bg-gradient-brand {
+    background-image: linear-gradient(blue, green);
   }
 }
