@@ -4,12 +4,18 @@
   "description": "Tailwind CSS Playlist lessons by Learn with Sumit",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "build-p": "postcss ./src/tailwind.css -o ./output/tailwind.css -w"
   },
   "keywords": [],
   "author": "Learn with Sumit",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2"
   }
 }

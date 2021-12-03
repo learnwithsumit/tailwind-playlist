@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities; */
 
-.content-area {
-  height: calc(100vh - 3rem);
+.text-body {
+  font-size: 2rem;
+}
+
+input::-moz-placeholder {
+  color: gray;
+}
+
+input:-ms-input-placeholder {
+  color: gray;
+}
+
+input::placeholder {
+  color: gray;
 }
