@@ -1,11 +1,7 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 .text-body {
-  font-size: 2rem;
-}
-
-input::placeholder {
-  color: gray;
+  @apply text-white;
 }
