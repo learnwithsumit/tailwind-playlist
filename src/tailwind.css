@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities; */
 
-@screen sm {
-  .bg-gradient-brand {
-    background-image: linear-gradient(blue, green);
-  }
+.content-area {
+  height: calc(100vh - theme("spacing.12"));
 }
