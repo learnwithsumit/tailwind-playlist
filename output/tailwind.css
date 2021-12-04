@@ -3,14 +3,18 @@
 @tailwind utilities; */
 
 .btn {
-  --tw-bg-opacity: 1;
-  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
   text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem
 }
 
 @media (min-width: 540px) {
+  .btn {
+    text-align: left
+  }
+}
+
+@media (min-width: 768px) {
   .btn {
     text-align: left
   }
