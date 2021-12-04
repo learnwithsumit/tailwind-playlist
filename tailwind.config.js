@@ -1,8 +1,8 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  mode: "jit",
-  purge: ["./public/**/*.{html,js}"],
+  // mode: "jit",
+  // purge: ["./public/**/*.{html,js}"],
   darkMode: "media", // or 'media' or 'class'
   theme: {
     colors: {
@@ -23,8 +23,11 @@ module.exports = {
       },
     },
   },
+  variantOrder: ["first", "last", "odd", "even", "visited", "checked", "group-hover", "group-focus", "focus-within", "focus", "hover", "focus-visible", "active", "disabled"],
   variants: {
-    extend: {},
+    extend: {
+      fontSize: ["hover", "focus"],
+    },
   },
   plugins: [],
 };

@@ -3,5 +3,5 @@
 @tailwind utilities; */
 
 .btn {
-  @apply text-sm text-center sm:text-left md:text-left lg:text-right 4k:text-center;
+  @apply text-sm text-center sm:text-left md:text-left lg:text-right 4k:text-center hover:text-xl focus:text-2xl;
 }

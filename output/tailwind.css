@@ -5,29 +5,39 @@
 .btn {
   text-align: center;
   font-size: 0.875rem;
-  line-height: 1.25rem
+  line-height: 1.25rem;
+}
+
+.btn:focus {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.btn:hover {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 @media (min-width: 540px) {
   .btn {
-    text-align: left
+    text-align: left;
   }
 }
 
 @media (min-width: 768px) {
   .btn {
-    text-align: left
+    text-align: left;
   }
 }
 
 @media (min-width: 1000px) {
   .btn {
-    text-align: right
+    text-align: right;
   }
 }
 
 @media (min-width: 2560px) {
   .btn {
-    text-align: center
+    text-align: center;
   }
 }
