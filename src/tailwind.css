@@ -1,7 +1,7 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-.text-body {
-  @apply text-white;
+.btn {
+  @apply text-sm text-center bg-blue-600 sm:text-left md:text-left lg:text-right 4k:text-center;
 }
