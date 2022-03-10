@@ -1,0 +1,15 @@
+{
+    "name": "tailwind3-by-lws",
+    "version": "1.0.0",
+    "description": "Play with Tailwind CSS 3 - Learn with Sumit",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+    },
+    "keywords": [],
+    "author": "Sumit Saha",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}

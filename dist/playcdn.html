@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            lwsred: "#da373d",
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <style type="text/tailwindcss">
+            @layer utilities {
+                .custom-grid {
+                    display: grid;
+                    grid-template-columns: 100px 1fr 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body class="px-10 py-20">
+        <h1 class="text-3xl font-bold text-lwsred">Hello world!</h1>
+
+        <div class="custom-grid mt-10 text-white">
+            <div class="bg-red-500 text-center">Learn</div>
+            <div class="bg-blue-500 text-center">with</div>
+            <div class="bg-green-500 text-center">Sumit</div>
+        </div>
+    </body>
+</html>

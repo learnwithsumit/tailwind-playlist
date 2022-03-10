@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="p-3">
+            <h1 class="text-2xl">Let's print this page</h1>
+            <p class="text-slate-600 print:text-black print:text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, veniam velit hic quia quas iste necessitatibus
+                reiciendis ut id nostrum omnis eos nesciunt rem cupiditate vel,
+                in, sapiente pariatur eveniet!
+            </p>
+            <p class="text-slate-600 print:text-black print:text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, veniam velit hic quia quas iste necessitatibus
+                reiciendis ut id nostrum omnis eos nesciunt rem cupiditate vel,
+                in, sapiente pariatur eveniet!
+            </p>
+            <p class="mt-6 text-right print:hidden">
+                <button
+                    onclick="window.print()"
+                    class="bg-blue-500 text-white border-0 px-3 py-2 rounded-md"
+                >
+                    Print
+                </button>
+            </p>
+        </div>
+    </body>
+</html>
